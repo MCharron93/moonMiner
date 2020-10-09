@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mine Game</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <row class="container-fluid">
+      <div class="col-12">
+        Moon Miner*
+      </div>
+    </row>
+  </header>
+
+  <main class="container-fluid">
+    <div class="row">
+      <div class="col-4">Modifiers</div>
+      <div id="cheese" class="col-4">Total Cheese</div>
+    </div>
+    <div class="row">
+      <div class="col-3 bg-kirby image-fluid"></div>
+      <div class="col-5 bg-king image-fluid" onclick="onclickMine()"></div>
+    </div>
+    <div class="row">
+      <div class="col-5">Inventory</div>
+      <div class="col-5">
+        <div class="row">
+          <div class="col-4">Upgrade Items</div>
+          <div id="hammer" class="col-4 bg-hammer" onclick="buyClickItem('hammer')"></div>
+          <div id="clouds" class="col-4 bg-cloud" onclick="buyClickItem('clouds')"></div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="row-container-fluid">
+      <div class="col-12">
+        Use your weapons to increase stars!
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="app.js"></script>
+</body>
+
+</html>

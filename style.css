@@ -1,0 +1,40 @@
+body { min-height: 100vh; display: flex; flex-direction: column; }
+header{ height: 7vh; } 
+main{flex-grow: 1;} 
+footer{height: 7vh; }
+
+*{
+  outline: 1px solid grey;
+}
+
+.bg-kirby{
+  background-image: url(kirby-avatar.png);
+  background-position: center;
+  height: 15vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.bg-king{
+  background-image: url(king-dedede.png);
+  background-position: center;
+  height: 30vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.bg-hammer{
+  background-image: url(kirbys\ hammer.png);
+  background-position: center;
+  height: 15vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.bg-cloud{
+  background-image: url(cloud.png);
+  background-position: center;
+  height: 15vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
