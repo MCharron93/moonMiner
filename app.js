@@ -92,7 +92,6 @@ function update() {
   let cloudPrice = document.getElementById('clouds')
   cloudPrice.innerHTML = 'Clouds: ' + clickUpgrades.clouds.price.toString()
 
-
 }
 
 update()
