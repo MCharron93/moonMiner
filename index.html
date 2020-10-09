@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="bg-woods">
   <header>
     <row class="container-fluid">
       <div class="col-12">
@@ -22,7 +22,7 @@
 
   <main class="container-fluid">
     <div class="row">
-      <div class="col-4">Modifiers</div>
+      <div id="modifiers" class="col-4"></div>
       <div id="cheese" class="col-4">Total Cheese</div>
     </div>
     <div class="row">
@@ -35,7 +35,9 @@
         <div class="row">
           <div class="col-4">Upgrade Items</div>
           <div id="hammer" class="col-4 bg-hammer" onclick="buyClickItem('hammer')"></div>
+          <div id="star" class="col-4 bg-star" onclick="buyClickItem('star')"></div>
           <div id="clouds" class="col-4 bg-cloud" onclick="buyClickItem('clouds')"></div>
+          <div id="twin" class="col-4 bg-twin" onclick="buyClickItem('twin')"></div>
         </div>
       </div>
 

@@ -7,8 +7,14 @@ footer{height: 7vh; }
   outline: 1px solid grey;
 }
 
+.bg-woods{
+  background-image: url(https://ih0.redbubble.net/image.438463701.4079/flat,1000x1000,075,f.u2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .bg-kirby{
-  background-image: url(kirby-avatar.png);
+  background-image: url(https://thumbs.gfycat.com/ActiveUnconsciousHyena-size_restricted.gif);
   background-position: center;
   height: 15vh;
   background-size: contain;
@@ -16,11 +22,15 @@ footer{height: 7vh; }
 }
 
 .bg-king{
-  background-image: url(king-dedede.png);
+  background-image: url(https://pa1.narvii.com/7252/c005395abb4157454c5afad821ed55656ddabb92r1-200-200_hq.gif
+  );
   background-position: center;
   height: 30vh;
   background-size: contain;
   background-repeat: no-repeat;
+}
+.bg-king-hurt{
+  background-image: url(https://i.imgur.com/fS1gBBI.gif);
 }
 
 .bg-hammer{
@@ -31,8 +41,24 @@ footer{height: 7vh; }
   background-repeat: no-repeat;
 }
 
+.bg-star{
+  background-image: url();
+  background-position: center;
+  height: 15vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .bg-cloud{
   background-image: url(cloud.png);
+  background-position: center;
+  height: 15vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.bg-twin{
+  background-image: url();
   background-position: center;
   height: 15vh;
   background-size: contain;
