@@ -3,6 +3,7 @@
 //up-to-date count of resource--- completed, needs style
 let cheese = 0
 
+
 //upgrades have different modifiers---completed
 //4 upgrades with modifiers(1 passive and one active on-clicks--- completed 
 let clickUpgrades = {
@@ -10,7 +11,9 @@ let clickUpgrades = {
     price: 10,
     quanity: 0,
     multiplier: 1,
-    automatic: false
+    automatic: false,
+    color:"blue"
+
   },
   star: {
     price: 50,
@@ -77,8 +80,9 @@ function buyClickItem(item) {
     cheese -= clickUpgrades[item].price
     clickUpgrades[item].quanity++
     priceIncrease(item)
-    let kirbyElem = document.getElementById('kirby')
-    kirbyElem.classList.add('power-up')
+    
+    // let kirbyElem = document.getElementById('kirby')
+    // kirbyElem.classList.add('power-up')
   }
 
   drawMultiplier()

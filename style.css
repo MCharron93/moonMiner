@@ -8,13 +8,16 @@ footer{height: 7vh; }
   margin-right: 0px;
 }
 .spacer{
-  height: 42vh;
+  height: 46vh;
 }
 .spacer-2{
   height: 15vh;
 }
 .height{
   height: 8em;
+}
+#cheese{
+  max-width: 70%;
 }
 
 .bg-items{
@@ -40,6 +43,7 @@ footer{height: 7vh; }
   background-repeat: no-repeat;
   background-size: cover;
 }
+.blue{}
 
 .bg-kirby{
   background-image: url(https://thumbs.gfycat.com/ActiveUnconsciousHyena-size_restricted.gif);
