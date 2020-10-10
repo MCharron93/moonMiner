@@ -20,6 +20,13 @@ footer{height: 7vh; }
   background-size: contain;
   background-repeat: no-repeat;
 }
+.bg-kirby-hammer{
+  background-image: url();
+}
+
+.bg-waddle{
+  background-image: url(https://cdn2.scratch.mit.edu/get_image/gallery/25121648_170x100.png);
+}
 
 .bg-king{
   background-image: url(https://pa1.narvii.com/7252/c005395abb4157454c5afad821ed55656ddabb92r1-200-200_hq.gif
@@ -42,7 +49,7 @@ footer{height: 7vh; }
 }
 
 .bg-star{
-  background-image: url();
+  background-image: url(https://pa1.narvii.com/6256/8f589cadf2b912328e05657df7f80a6d67ae9c9d_00.gif);
   background-position: center;
   height: 15vh;
   background-size: contain;
@@ -50,7 +57,7 @@ footer{height: 7vh; }
 }
 
 .bg-cloud{
-  background-image: url(cloud.png);
+  background-image: url(https://lh3.googleusercontent.com/proxy/DD6KyKLoqWqfoynlc-ZnrtGLIXWke5B6p5MnQUwYGTx1Tueg8Sf0XrFLcUDL_HZICbWw2YLzKf5fblM32FUaCGj1DXPg8RN-FpxifcBxVk155f2YCVfru_s);
   background-position: center;
   height: 15vh;
   background-size: contain;
