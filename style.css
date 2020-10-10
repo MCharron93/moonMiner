@@ -35,13 +35,14 @@ footer{height: 7vh; }
   height: 30vh;
   background-size: contain;
   background-repeat: no-repeat;
+  transform: scaleX(-1);
 }
 .bg-king-hurt{
   background-image: url(https://i.imgur.com/fS1gBBI.gif);
 }
 
 .bg-hammer{
-  background-image: url(kirbys\ hammer.png);
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/cdad4534-156f-4562-8331-ce052c4a6432/d67trgi-55a53ee7-49cb-42ad-93b0-0cc7dc2b0b0b.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvY2RhZDQ1MzQtMTU2Zi00NTYyLTgzMzEtY2UwNTJjNGE2NDMyXC9kNjd0cmdpLTU1YTUzZWU3LTQ5Y2ItNDJhZC05M2IwLTBjYzdkYzJiMGIwYi5naWYifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.50kZcZx_4rXiXQc3HLOlADVmAoqDFXpJYQijQv-GcN4);
   background-position: center;
   height: 15vh;
   background-size: contain;
@@ -49,7 +50,7 @@ footer{height: 7vh; }
 }
 
 .bg-star{
-  background-image: url(https://pa1.narvii.com/6256/8f589cadf2b912328e05657df7f80a6d67ae9c9d_00.gif);
+  background-image: url(https://vignette.wikia.nocookie.net/animal-jam-clans-1/images/c/ce/Kirby_star_big.gif/revision/latest?cb=20171009005929);
   background-position: center;
   height: 15vh;
   background-size: contain;
@@ -57,7 +58,7 @@ footer{height: 7vh; }
 }
 
 .bg-cloud{
-  background-image: url(https://lh3.googleusercontent.com/proxy/DD6KyKLoqWqfoynlc-ZnrtGLIXWke5B6p5MnQUwYGTx1Tueg8Sf0XrFLcUDL_HZICbWw2YLzKf5fblM32FUaCGj1DXPg8RN-FpxifcBxVk155f2YCVfru_s);
+  background-image: url(clouds.gif);
   background-position: center;
   height: 15vh;
   background-size: contain;
@@ -65,7 +66,7 @@ footer{height: 7vh; }
 }
 
 .bg-twin{
-  background-image: url();
+  background-image: url(https://i.imgur.com/PRLaJQU.gif);
   background-position: center;
   height: 15vh;
   background-size: contain;
