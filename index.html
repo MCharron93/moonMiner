@@ -15,42 +15,53 @@
   <header>
     <div class="row container-fluid text-center text-light">
       <div class="col-12">
-        <h1>Kirby's Klick Challenge</h1>
+        <h1>Kirby's Kandy Klicker!</h1>
       </div>
     </div>
   </header>
 
   <main class="container-fluid">
-    <div class="row text-center text-light">
-      <div id="modifiers" class="col-4"></div>
-      <div id="cheese" class="col-4"></div>
+    <div class="row text-light justify-content-around">
+      <div class="col-12 spacer"></div>
+      <h4><div id="modifiers" class="col-6">
+      </div>
+        </h4>
+      <h3>
+        <div id="cheese" class="col-6"></div>
+      </h3>
     </div>
-    <div class="row">
-      <div class="col-3 bg-kirby image-fluid"></div>
+
+    <div class="row justify-content-around align-items-end">
+      <div id="kirby" class="col-3 bg-kirby image-fluid"></div>
       <div class="col-5 bg-king image-fluid" onclick="onclickMine()"></div>
     </div>
-    <div class="row text-center text-light">
-      <div class="col-5">Inventory</div>
-      <div class="col-5">
-        <div class="row text-center text-light">
-          <div class="col-12">Upgrade Items</div>
+    <div class="col-12 spacer-2"></div>
+
+    <div class="row text-center bg-items border-custom">
+      <div class="col-6">
+        <h4>Inventory</h4>
+        <div class="row">
+          <div id="hammer-inv" class="col-6"></div>
+          <div id="star-inv" class="col-6"></div>
+          <div id="clouds-inv" class="col-6"></div>
+          <div id="twin-inv" class="col-6"></div>
+        </div>
+      </div>
+      <div class="col-6">
+        <h4>Upgrade Items</h4>
+        <div class="row">
           <div id="hammer" class="col-6 bg-hammer" onclick="buyClickItem('hammer')"></div>
           <div id="star" class="col-6 bg-star" onclick="buyClickItem('star')"></div>
           <div id="clouds" class="col-6 bg-cloud" onclick="buyClickItem('clouds')"></div>
           <div id="twin" class="col-6 bg-twin" onclick="buyClickItem('twin')"></div>
         </div>
       </div>
-
+      <footer class="col-12 p-4">
+          <h3>Use your weapons to increase kandy!</h3>
+      </footer>
     </div>
   </main>
 
-  <footer>
-    <div class="row-container-fluid">
-      <div class="col-12">
-        Use your weapons to increase stars!
-      </div>
-    </div>
-  </footer>
 
 
   <script src="app.js"></script>

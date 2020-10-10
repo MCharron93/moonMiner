@@ -7,8 +7,31 @@ footer{height: 7vh; }
   outline: 1px solid grey;
 }
 
+.row{
+  margin-right: 0px;
+}
+
+.spacer{
+  height: 35vh;
+}
+.spacer-2{
+  height: 7vh;
+}
+
+.bg-items{
+  color:#9d779d;
+  font-size: 16pt;
+  position: absolute;
+  bottom: -437px;
+}
+.border-custom{
+  border: 5px solid #62c97f;
+  border-bottom: none;
+}
+
 .bg-woods{
   background-image: url(https://ih0.redbubble.net/image.438463701.4079/flat,1000x1000,075,f.u2.jpg);
+  background-color: #ffe8b0;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -20,9 +43,11 @@ footer{height: 7vh; }
   background-size: contain;
   background-repeat: no-repeat;
 }
-.bg-kirby-hammer{
-  background-image: url();
+
+.power-up{
+  filter: drop-shadow(4px 6px 8px blue);
 }
+
 
 .bg-waddle{
   background-image: url(https://cdn2.scratch.mit.edu/get_image/gallery/25121648_170x100.png);
@@ -39,6 +64,10 @@ footer{height: 7vh; }
 }
 .bg-king-hurt{
   background-image: url(https://i.imgur.com/fS1gBBI.gif);
+  background-position: center;
+  height: 30vh;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .bg-hammer{
