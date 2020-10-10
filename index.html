@@ -7,21 +7,21 @@
   <title>Mine Game</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body class="bg-woods">
   <header>
-    <div class="row container-fluid text-center text-light">
-      <div class="col-12">
+    <div class="row container-fluid text-center text-custom-dark">
+      <div class="col-12 p-5">
         <h1>Kirby's Kandy Klicker!</h1>
       </div>
     </div>
   </header>
 
   <main class="container-fluid">
-    <div class="row text-light justify-content-around">
+    <div class="row text-custom-light justify-content-around">
       <div class="col-12 spacer"></div>
       <h4><div id="modifiers" class="col-6">
       </div>
@@ -40,8 +40,8 @@
     <div class="row text-center bg-items border-custom">
       <div class="col-6">
         <h4>Inventory</h4>
-        <div class="row">
-          <div id="hammer-inv" class="col-6"></div>
+        <div class="row pt-4">
+          <div id="hammer-inv" class="col-6 height"></div>
           <div id="star-inv" class="col-6"></div>
           <div id="clouds-inv" class="col-6"></div>
           <div id="twin-inv" class="col-6"></div>
@@ -49,7 +49,7 @@
       </div>
       <div class="col-6">
         <h4>Upgrade Items</h4>
-        <div class="row">
+        <div class="row p-4">
           <div id="hammer" class="col-6 bg-hammer" onclick="buyClickItem('hammer')"></div>
           <div id="star" class="col-6 bg-star" onclick="buyClickItem('star')"></div>
           <div id="clouds" class="col-6 bg-cloud" onclick="buyClickItem('clouds')"></div>

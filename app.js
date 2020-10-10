@@ -36,6 +36,8 @@ let clickUpgrades = {
 function onclickMine() {
   cheese++
   
+  
+
   mineModifier(false)
   update()
 }
@@ -73,8 +75,6 @@ function buyClickItem(item) {
     let kirbyElem = document.getElementById('kirby')
     kirbyElem.classList.add('power-up')
   }
-  
-
 
   drawMultiplier()
   update()
@@ -99,13 +99,13 @@ function update() {
   hammerPrice.innerHTML = 'Hammer: ' + clickUpgrades.hammer.price.toString()
   
   let starPrice = document.getElementById('star')
-  starPrice.innerHTML = 'Star Power: ' + clickUpgrades.star.price.toString()
+  starPrice.innerHTML = 'Star: ' + clickUpgrades.star.price.toString()
   
   let cloudPrice = document.getElementById('clouds')
   cloudPrice.innerHTML = 'Clouds: ' + clickUpgrades.clouds.price.toString()
 
   let twinPrice = document.getElementById('twin')
-  twinPrice.innerHTML = 'Twin Kirby: ' + clickUpgrades.twin.price.toString()
+  twinPrice.innerHTML = 'Twin: ' + clickUpgrades.twin.price.toString()
 
   let modifierElem = document.getElementById('modifiers')
   modifierElem.innerHTML = 'Modifiers: ' + drawMultiplier()

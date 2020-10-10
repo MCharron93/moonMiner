@@ -1,32 +1,37 @@
-body { min-height: 100vh; display: flex; flex-direction: column; }
+body { min-height: 100vh; display: flex; flex-direction: column; font-family: 'Press Start 2P', cursive;}
 header{ height: 7vh; } 
 main{flex-grow: 1;} 
 footer{height: 7vh; }
 
-*{
-  outline: 1px solid grey;
-}
 
 .row{
   margin-right: 0px;
 }
-
 .spacer{
-  height: 35vh;
+  height: 42vh;
 }
 .spacer-2{
-  height: 7vh;
+  height: 15vh;
+}
+.height{
+  height: 8em;
 }
 
 .bg-items{
   color:#9d779d;
-  font-size: 16pt;
+  font-size: 14pt;
   position: absolute;
-  bottom: -437px;
+  bottom: -30.75em;
 }
 .border-custom{
   border: 5px solid #62c97f;
   border-bottom: none;
+}
+.text-custom-dark{
+  color: #9d779d;
+}
+.text-custom-light{
+  color: #ffe8b0;
 }
 
 .bg-woods{
@@ -72,32 +77,32 @@ footer{height: 7vh; }
 
 .bg-hammer{
   background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/cdad4534-156f-4562-8331-ce052c4a6432/d67trgi-55a53ee7-49cb-42ad-93b0-0cc7dc2b0b0b.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvY2RhZDQ1MzQtMTU2Zi00NTYyLTgzMzEtY2UwNTJjNGE2NDMyXC9kNjd0cmdpLTU1YTUzZWU3LTQ5Y2ItNDJhZC05M2IwLTBjYzdkYzJiMGIwYi5naWYifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.50kZcZx_4rXiXQc3HLOlADVmAoqDFXpJYQijQv-GcN4);
-  background-position: center;
-  height: 15vh;
-  background-size: contain;
+  background-position: bottom;
+  height: 20vh;
+  background-size: 75%;
   background-repeat: no-repeat;
 }
 
 .bg-star{
   background-image: url(https://vignette.wikia.nocookie.net/animal-jam-clans-1/images/c/ce/Kirby_star_big.gif/revision/latest?cb=20171009005929);
-  background-position: center;
-  height: 15vh;
-  background-size: contain;
+  background-position: bottom;
+  height: 20vh;
+  background-size: 50%;
   background-repeat: no-repeat;
 }
 
 .bg-cloud{
   background-image: url(clouds.gif);
-  background-position: center;
-  height: 15vh;
-  background-size: contain;
+  background-position: bottom;
+  height: 20vh;
+  background-size: 65%;
   background-repeat: no-repeat;
 }
 
 .bg-twin{
   background-image: url(https://i.imgur.com/PRLaJQU.gif);
-  background-position: center;
-  height: 15vh;
-  background-size: contain;
+  background-position: bottom;
+  height: 20vh;
+  background-size: 35%;
   background-repeat: no-repeat;
 }
