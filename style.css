@@ -19,6 +19,9 @@ footer{height: 7vh; }
 #cheese{
   max-width: 70%;
 }
+div.button:hover{
+  filter: drop-shadow(4px 6px 8px blue);
+}
 
 .bg-items{
   color:#9d779d;
