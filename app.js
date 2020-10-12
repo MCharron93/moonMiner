@@ -89,8 +89,6 @@ function buyClickItem(item) {
   update()
 }
 
-
-
 //price of upgrade increases after every purchase---completed
 function priceIncrease(purchase) {
   let double = clickUpgrades[purchase].price
