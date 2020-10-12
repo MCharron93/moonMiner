@@ -8,7 +8,7 @@ footer{height: 7vh; }
   margin-right: 0px;
 }
 .spacer{
-  height: 46vh;
+  height: 43vh;
 }
 .spacer-2{
   height: 15vh;
@@ -24,7 +24,7 @@ footer{height: 7vh; }
   color:#9d779d;
   font-size: 14pt;
   position: absolute;
-  bottom: -31.25em;
+  bottom: -29.50em;
 }
 .border-custom{
   border: 5px solid #62c97f;
