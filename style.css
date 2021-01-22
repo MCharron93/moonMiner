@@ -41,14 +41,14 @@ div.button:hover{
 }
 
 .bg-woods{
-  background-image: url(https://ih0.redbubble.net/image.438463701.4079/flat,1000x1000,075,f.u2.jpg);
+  background-image: url('https://ih0.redbubble.net/image.438463701.4079/flat,1000x1000,075,f.u2.jpg');
   background-color: #ffe8b0;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .bg-kirby{
-  background-image: url(https://thumbs.gfycat.com/ActiveUnconsciousHyena-size_restricted.gif);
+  background-image: url('https://thumbs.gfycat.com/ActiveUnconsciousHyena-size_restricted.gif');
   background-position: center;
   height: 15vh;
   background-size: contain;
@@ -61,11 +61,11 @@ div.button:hover{
 
 
 .bg-waddle{
-  background-image: url(https://cdn2.scratch.mit.edu/get_image/gallery/25121648_170x100.png);
+  background-image: url('https://cdn2.scratch.mit.edu/get_image/gallery/25121648_170x100.png');
 }
 
 .bg-king{
-  background-image: url(https://pa1.narvii.com/7252/c005395abb4157454c5afad821ed55656ddabb92r1-200-200_hq.gif
+  background-image: url('https://pa1.narvii.com/7252/c005395abb4157454c5afad821ed55656ddabb92r1-200-200_hq.gif'
   );
   background-position: center;
   height: 30vh;
@@ -74,7 +74,7 @@ div.button:hover{
   transform: scaleX(-1);
 }
 .bg-king-hurt{
-  background-image: url(https://i.imgur.com/fS1gBBI.gif);
+  background-image: url('https://i.imgur.com/fS1gBBI.gif');
   background-position: center;
   height: 30vh;
   background-size: contain;
@@ -82,7 +82,7 @@ div.button:hover{
 }
 
 .bg-hammer{
-  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/cdad4534-156f-4562-8331-ce052c4a6432/d67trgi-55a53ee7-49cb-42ad-93b0-0cc7dc2b0b0b.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvY2RhZDQ1MzQtMTU2Zi00NTYyLTgzMzEtY2UwNTJjNGE2NDMyXC9kNjd0cmdpLTU1YTUzZWU3LTQ5Y2ItNDJhZC05M2IwLTBjYzdkYzJiMGIwYi5naWYifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.50kZcZx_4rXiXQc3HLOlADVmAoqDFXpJYQijQv-GcN4);
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/cdad4534-156f-4562-8331-ce052c4a6432/d67trgi-55a53ee7-49cb-42ad-93b0-0cc7dc2b0b0b.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvY2RhZDQ1MzQtMTU2Zi00NTYyLTgzMzEtY2UwNTJjNGE2NDMyXC9kNjd0cmdpLTU1YTUzZWU3LTQ5Y2ItNDJhZC05M2IwLTBjYzdkYzJiMGIwYi5naWYifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.50kZcZx_4rXiXQc3HLOlADVmAoqDFXpJYQijQv-GcN4');
   background-position: bottom;
   height: 20vh;
   background-size: 75%;
@@ -90,7 +90,7 @@ div.button:hover{
 }
 
 .bg-star{
-  background-image: url(https://vignette.wikia.nocookie.net/animal-jam-clans-1/images/c/ce/Kirby_star_big.gif/revision/latest?cb=20171009005929);
+  background-image: url('https://vignette.wikia.nocookie.net/animal-jam-clans-1/images/c/ce/Kirby_star_big.gif/revision/latest?cb=20171009005929');
   background-position: bottom;
   height: 20vh;
   background-size: 50%;
@@ -98,7 +98,7 @@ div.button:hover{
 }
 
 .bg-cloud{
-  background-image: url(clouds.gif);
+  background-image: url('./assets/clouds.gif');
   background-position: bottom;
   height: 20vh;
   background-size: 65%;
@@ -106,7 +106,7 @@ div.button:hover{
 }
 
 .bg-twin{
-  background-image: url(https://i.imgur.com/PRLaJQU.gif);
+  background-image: url('https://i.imgur.com/PRLaJQU.gif');
   background-position: bottom;
   height: 20vh;
   background-size: 35%;

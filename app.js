@@ -41,7 +41,7 @@ function onclickMine() {
   
   let kingElem = document.getElementById('king')
   let orig = kingElem.style.backgroundImage
-  kingElem.style.backgroundImage = "url(https://i.imgur.com/fS1gBBI.gif)"
+  kingElem.style.backgroundImage = "url('https://i.imgur.com/fS1gBBI.gif')"
   setTimeout(function(){
     kingElem.style.backgroundImage = orig;
 }, 100)
